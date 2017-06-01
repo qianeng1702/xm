@@ -1,0 +1,358 @@
+/* CSS Document */
+.margin {
+  width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px; }
+
+#banner-div {
+  margin: auto;
+  height: 82px;
+  position: relative;
+  top: -680px;
+  overflow: hidden; }
+
+#banner-div .logo {
+  position: absolute;
+  top: 28px;
+  left: 18px; }
+
+#banner-div nav {
+  position: absolute;
+  line-height: 21px;
+  top: 30px;
+  right: 0; }
+
+#banner-div nav a {
+  font: 12px "";
+  display: block;
+  float: left;
+  margin: 0 20px;
+  color: #515151; }
+
+.meizushoujidiv {
+  width: 100%;
+  height: 200px;
+  border: 1px solid #000;
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.5); }
+
+.meizushoujiul {
+  position: absolute;
+  bottom: 0px;
+  right: 220px; }
+
+.meizushoujiul .meizushoujili {
+  width: 100px;
+  height: 120px;
+  float: left;
+  margin: 0 30px;
+  text-align: center; }
+
+.meizushoujili img {
+  width: 60px;
+  height: 100px; }
+
+#banner-div nav .aimg {
+  display: block;
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin: 0 50px 0 5px; }
+
+#banner-div nav a:hover {
+  color: #00c4f6; }
+
+#list {
+  height: 376px;
+  margin-top: -82px; }
+
+#list .ulClass {
+  margin: 96px 30px 0;
+  display: flex;
+  justify-content: space-between; }
+
+#list .ulClass li {
+  width: 146px;
+  height: 220px;
+  text-align: center; }
+
+#list .ulClass li img {
+  display: block;
+  width: 146px;
+  height: 146px; }
+
+#list .ulClass li h3 {
+  width: 100%;
+  font-size: 20px;
+  color: #515151;
+  margin-bottom: 10px; }
+
+#list .ulClass li p {
+  width: 100%;
+  font-size: 12px;
+  color: #999; }
+
+#main {
+  height: 410px;
+  background: #f4f4f4;
+  overflow: hidden; }
+
+#main .main1 {
+  width: 620px;
+  height: 410px;
+  float: left;
+  display: block; }
+
+#main .mainUl {
+  width: 620px;
+  float: left;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+#main .mainUl li {
+  width: 155px;
+  height: 135px;
+  text-align: center; }
+
+#main .mainUl li img {
+  margin-bottom: 10px; }
+
+#new {
+  position: relative;
+  height: 738px; }
+
+#new .new-ul {
+  width: 3720px;
+  height: 520px;
+  margin-top: 109px;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  top: 0;
+  left: 0; }
+
+#new .new-ul .new-div1 {
+  position: absolute;
+  width: 1240px;
+  display: flex;
+  justify-content: space-between;
+  left: 0; }
+
+#new .new-ul .new-div2 {
+  position: absolute;
+  width: 1240px;
+  display: flex;
+  justify-content: space-between;
+  left: 1240px; }
+
+#new .new-ul .new-div3 {
+  position: absolute;
+  width: 1240px;
+  display: flex;
+  justify-content: space-between;
+  left: 2480px; }
+
+#new .lunboanniu1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: 0px;
+  top: 190px;
+  z-index: 1; }
+
+#new .lunboanniu2 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  right: 0px;
+  top: 190px;
+  z-index: 1; }
+
+#new .lunboanniu {
+  width: 60px;
+  height: 60px; }
+
+#new .new-div-01 {
+  text-align: center;
+  width: 208px;
+  height: 520px;
+  margin-right: 136px; }
+
+#new .no-margin {
+  margin-right: 0; }
+
+#new .new-div-01 .newP {
+  font-size: 14px;
+  margin-top: 30px; }
+
+#new .new-div-01 .newP span {
+  display: block;
+  margin-bottom: 4px;
+  color: #666; }
+
+#new .new-div-01 .newP em {
+  display: block;
+  margin-bottom: 4px;
+  color: #f0415f; }
+
+#new .newUl1 {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center; }
+
+#new .newUl1 li {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #999;
+  margin: 0 7px; }
+
+#new .newUl1 li:first-child {
+  background: #000; }
+
+#server {
+  height: 220px;
+  border-top: 1px solid #eee; }
+
+#server .serverUl {
+  display: flex;
+  justify-content: center; }
+
+#server .serverUl li {
+  text-align: center;
+  margin: 68px; }
+
+#server .serverUl li img {
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin-bottom: 7px; }
+
+#server .serverUl li span {
+  display: block;
+  color: #515151; }
+
+#shouquan {
+  overflow: hidden;
+  background: url(../images/server-bg.jpg) no-repeat center;
+  font: 14px "";
+  height: 380px;
+  text-align: center;
+  color: #fff; }
+
+#shouquan h3 {
+  font: 700 32px "";
+  margin: 120px 0 24px; }
+
+#shouquan .shouquanDiv {
+  display: block;
+  width: 182px;
+  height: 40px;
+  border: 1px solid #fff;
+  line-height: 40px;
+  margin: 70px auto; }
+
+#fahuo {
+  height: 192px;
+  overflow: hidden;
+  position: relative; }
+
+#fahuo .fahuoUl {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 1000px;
+  position: absolute;
+  top: 60px; }
+
+#fahuo .fahuoUl li {
+  width: 240px;
+  height: 60px; }
+
+#fahuo .fahuoUl li a {
+  display: block;
+  width: 240px;
+  height: 30px; }
+
+#fahuo .fahuoClass {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  right: 0;
+  top: 50px; }
+
+#fahuo .fahuoClass span {
+  width: 150px;
+  display: block;
+  height: 20px;
+  font: 12px/20px "";
+  color: #666; }
+
+#fahuo .fahuoClass p {
+  width: 150px;
+  height: 30px;
+  font: 22px/30px "";
+  color: #00C4F6; }
+
+#fahuo .fahuoClass a {
+  display: block;
+  width: 150px;
+  height: 40px;
+  font: 14px/40px "";
+  color: #fff;
+  border-radius: 4px;
+  background: #00C4F6; }
+
+#fahuo .fahuoClass a img {
+  margin: auto 10px; }
+
+footer {
+  height: 100px; }
+
+footer .margin {
+  border-top: 1px solid #eee; }
+
+footer .margin .footer-ul {
+  width: 100%;
+  height: 20px;
+  margin: 28px 0 16px; }
+
+footer .margin .footer-ul li {
+  height: 20px;
+  margin-right: 15px;
+  padding-right: 15px;
+  border-right: 1px solid #d6d6d6;
+  float: left; }
+
+footer .margin .footer-ul a {
+  color: #999; }
+
+footer .margin .footer-ul a.te {
+  float: left;
+  height: 20px;
+  padding-left: 24px;
+  background: url(../images/zhongwen.png) no-repeat left center; }
+
+footer .margin .footer-p {
+  color: #999; }
+
+footer .margin .footer-p i {
+  font-size: 20px; }
+
+footer .margin .footer-p a {
+  color: #999;
+  margin: 0 10px; }
+
+footer .margin .footer-p a:first-child {
+  color: #999;
+  margin-left: 20px; }
+
+/*# sourceMappingURL=meizu.css.map */
