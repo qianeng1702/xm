@@ -4,65 +4,62 @@
   margin: 0 auto;
   padding: 0 20px; }
 
-#banner-div {
-  margin: auto;
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  width: 100%; }
+
+#banner {
+  width: 1540px;
+  margin: 0 auto; }
+  #banner img {
+    width: 100%; }
+
+#nav-div {
   height: 82px;
-  position: relative;
-  top: -680px;
   overflow: hidden; }
-
-#banner-div .logo {
-  position: absolute;
-  top: 28px;
-  left: 18px; }
-
-#banner-div nav {
-  position: absolute;
-  line-height: 21px;
-  top: 30px;
-  right: 0; }
-
-#banner-div nav a {
-  font: 12px "";
-  display: block;
-  float: left;
-  margin: 0 20px;
-  color: #515151; }
-
-.meizushoujidiv {
-  width: 100%;
-  height: 200px;
-  border: 1px solid #000;
-  display: none;
-  position: absolute;
-  z-index: 1;
-  background: rgba(255, 255, 255, 0.5); }
-
-.meizushoujiul {
-  position: absolute;
-  bottom: 0px;
-  right: 220px; }
-
-.meizushoujiul .meizushoujili {
-  width: 100px;
-  height: 120px;
-  float: left;
-  margin: 0 30px;
-  text-align: center; }
-
-.meizushoujili img {
-  width: 60px;
-  height: 100px; }
-
-#banner-div nav .aimg {
-  display: block;
-  float: left;
-  width: 20px;
-  height: 20px;
-  margin: 0 50px 0 5px; }
-
-#banner-div nav a:hover {
-  color: #00c4f6; }
+  #nav-div .logo {
+    position: absolute;
+    top: 28px;
+    left: 18px; }
+  #nav-div .nav-ul {
+    position: absolute;
+    height: 21px;
+    line-height: 21px;
+    top: 30px;
+    right: 0; }
+    #nav-div .nav-ul .nav-li {
+      font: 12px "";
+      float: left;
+      margin: 0 20px; }
+      #nav-div .nav-ul .nav-li a {
+        color: #515151; }
+      #nav-div .nav-ul .nav-li a:hover {
+        color: #00C4F6; }
+    #nav-div .nav-ul .tongdao .yincangdiv {
+      position: relative;
+      width: 80px;
+      height: 120px; }
+      #nav-div .nav-ul .tongdao .yincangdiv .tongdaodiv {
+        border: 1px solid #000;
+        width: 80px;
+        height: 100px;
+        display: none;
+        position: absolute;
+        top: 30px;
+        left: -40px;
+        background: #999; }
+        #nav-div .nav-ul .tongdao .yincangdiv .tongdaodiv a {
+          display: block;
+          width: 100%;
+          height: 24px;
+          font: 12px/24px "";
+          text-align: center;
+          color: #515151; }
+    #nav-div .nav-ul .tongdao .yincangdiv:hover .tongdaodiv {
+      display: block; }
 
 #list {
   height: 376px;
@@ -163,7 +160,7 @@
   background-color: rgba(0, 0, 0, 0.2);
   position: absolute;
   left: 0px;
-  top: 190px;
+  top: 260px;
   z-index: 1; }
 
 #new .lunboanniu2 {
@@ -173,7 +170,7 @@
   background-color: rgba(0, 0, 0, 0.2);
   position: absolute;
   right: 0px;
-  top: 190px;
+  top: 260px;
   z-index: 1; }
 
 #new .lunboanniu {

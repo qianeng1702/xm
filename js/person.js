@@ -18,5 +18,6 @@ define([],function(){
 				return age;
 			}
 		}	
+		
 });
 

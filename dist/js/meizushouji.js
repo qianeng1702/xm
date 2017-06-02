@@ -1,0 +1,1 @@
+$(function(){$(".meizushoujiA").click(function(){$(".meizushoujidiv").slideDown(1e3,function(){$(".meizushoujidiv").css("display","block")})}),$(".meizushoujiA").mouseout(function(){$(".meizushoujidiv").slideUp(500,function(){$(".meizushoujidiv").css("display","none")})})});

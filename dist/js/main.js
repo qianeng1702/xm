@@ -1,0 +1,1 @@
+require.config({paths:{jQuery:"jquery-1.8.3.min"}}),require(["jQuery"],function(e){$("#btn01").click(function(){alert("您好！")})});

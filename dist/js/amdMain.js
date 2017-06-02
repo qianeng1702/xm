@@ -1,0 +1,1 @@
+function aa(){console.log("123")}require(["person"],function(e){document.getElementById("ageText").value=e.getAge()});

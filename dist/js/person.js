@@ -1,0 +1,1 @@
+define([],function(){var n=25;return{id:"007",name:"张三丰",setAge:function(e){e<0||e>150||(n=e)},getAge:function(){return n}}});
